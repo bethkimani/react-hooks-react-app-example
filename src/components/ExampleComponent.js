@@ -1,14 +1,15 @@
+// src/components/ExampleComponent.js
+
 import React from "react";
 
-// no need to modify anything in here. The second test is looking for the returned JSX from this component
 function ExampleComponent() {
   return (
-    <div className="example">
+    <div>
       <img
-        src="https://s3.amazonaws.com/ironboard-learn/sunglasses.gif"
-        alt="a deeply impressed man, perhaps thinking 'whoa'"
+        src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif"
+        alt="Cool sunglasses"
       />
-      <p>Whoa!</p>
+      <p>This is the Example Component</p>
     </div>
   );
 }
